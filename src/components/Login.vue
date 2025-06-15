@@ -1,8 +1,8 @@
 <template>
     <div class="login">
         <h1>Discussion board</h1>
-        <p>Name:</p><input type="text" v-model="user.name">
-        <button @click="btnSubmit"> Join</button>
+        <p>ID:</p><input type="text" v-model="user.name">
+        <button @click="btnSubmit"> 登入</button>
     </div>
 </template>
 <script setup>
